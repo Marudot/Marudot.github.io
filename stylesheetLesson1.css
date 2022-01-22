@@ -1,0 +1,113 @@
+/* 演習に必要な設定（消さないでください） */
+body, h1, h2, p, form, input, ul {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    min-width: 1280px;
+  }
+  /* 設定ここまで */
+  
+  body {
+    font-family: "Avenir Next";
+  }
+  
+  header {
+    background-color: #26d0c9;
+    height: 90px;
+    display: flex;
+  }
+  
+  .header-logo {
+    font-size: 36px;
+    padding: 20px 40px;
+  }
+  
+  .header-list ul {
+    display: flex;
+  }
+  
+  .header-list li {
+    padding: 33px 20px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  main {
+    padding: 100px 80px;
+  }
+  
+  .copy-container h1 {
+    font-size: 100px;
+  }
+  
+  .copy-container h2 {
+    font-size: 60px;
+  }
+  
+  .copy-container span {
+    color: #ff4a4a;
+  }
+  
+  .contents-container {
+    margin-top: 100px;
+  }
+  
+  .section-title {
+    border-bottom: 2px solid #dee7ec;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+  }
+  
+  .contents-list {
+    display: flex;
+  }
+  
+  .contents-item {
+    margin-right: 10px;
+  }
+  
+  .contents-item p {
+    font-size: 24px;
+    margin-top: 30px;
+  }
+  .contents-item img {
+    height: 300px;
+  }
+  .contact-container {
+    margin-top: 100px;
+  }
+  
+  input, textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+  }
+  
+  .contact-submit {
+    background-color: #dee7ec;
+    color: #889eab;
+  }
+  
+  footer {
+    background-color: #2f5167;
+    height: 120px;
+    /* paddingプロパティを指定してください */
+    padding:40px;
+  }
+  
+  /* <footer>要素の中の<li>要素にpaddingプロパティを指定してください */
+  footer li{
+    padding:10px 0px;
+  }
